@@ -7,6 +7,6 @@
 */
 
 // Task 1: Add code here
-
+const { print } = require('./external.js')
 // Do not change the code below
 print();

@@ -11,8 +11,17 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    if (typeof x == 'number' && typeof y == 'number') {
+        temp = x;
+        x = y;
+        y = temp;
+        console.log(x,y);
+    } else {
+        return -1;
+    }
 }
 
 // Task 2: Add code here
+swap(5,7);
 
 module.exports = swap;
