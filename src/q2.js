@@ -11,7 +11,7 @@
 
 
 // Task 1: Add code here
-patients = [];
+const patients = [];
 
 function addPatient(patientName){
     // Task 2: Add code here

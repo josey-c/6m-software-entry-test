@@ -25,8 +25,8 @@ p.showAbilities(); // Observe that this function prints "Parenting" and "Role mo
 
 // Task 1: Add code here
 class Child extends Parent {
-    constructor(Parent) {
-        super(Parent);
+    constructor() {
+        super();
     }
 
     addNewAbility(newAbility) {
